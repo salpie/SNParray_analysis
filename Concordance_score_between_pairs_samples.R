@@ -4,8 +4,11 @@
 ########################################################################################################################################## 
 ######### Salpie Nowinski ############
 ######### date: 25/03/2015 ###########
+# calculates concordance between pairs of samples of tumour from same patient to identify which tumour subtypes are more closely related #
+# combines both break points and absolute copy number before calculating the concordance between the samples #
 
-#####pleomorphic pairs with pILC########
+
+#####pairs of samples - files_DCIS contains one, files_IDC contains the other########
 files_DCIS <- (Sys.glob("/Users/salpienowinski/Documents/pleomorphic_oncoscanv3_100probes/new_pleo/segmentCN/*pLCIS*segmentCN*"))
 files_IDC <- (Sys.glob("/Users/salpienowinski/Documents/pleomorphic_oncoscanv3_100probes/new_pleo/segmentCN/*pILC*segmentCN*"))
 
