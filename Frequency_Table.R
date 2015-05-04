@@ -2,7 +2,7 @@
 ############To produce Frequency Table in R##########
 #################Salpie Nowinski#####################
 ###########Date: 25/03/15############################
-
+# calculate similarities and differences of absolute copy number at break points between groups of samples ######################
 
 
 library(dplyr)
