@@ -1,0 +1,19 @@
+
+SNParray_analysis repository
+
+
+
+Contains scripts that calculate frequency, clonal relatedness (similarity score) between different tumours in same patients, and frequency tables between pairs. It calculates this using the absolute copy number *segmentCN.txt files produced from TAPS 2.0, and accepts files produced from most platforms (ONCOSCAN, HUMANCYTOSNP etc.)
+
+TAPS 2.0 can be found at http://patchwork.r-forge.r-project.org/.
+
+
+To produce *segmentCN.txt
+snp array raw files (illumina, affy etc.) -> NEXUS 7.5 SNP rank segmentation algorithm -> TAPS 2.0 -> SNParray_analysis repository 
+
+Concordance_score_between_pairs_samples_using_break_points_and_copynumber.R - calculates a concordance score between different tumour subtypes in the same patients to identify which tumour subtypes are more similar to others. Combines both break points and absolute copy number.
+
+Frequency_Table.R - calculates frequency table of copy number changes between two groups and gives p-value scores calculated from fisher's exact test.
+
+Paired_Frequency_Table.R - calculates frequency table of copy number changes between pairs of samples and gives p-value scores calculated from fisher's exact test.
+
