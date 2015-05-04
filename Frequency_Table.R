@@ -14,7 +14,7 @@ library(biomaRt)
 
 ####### Group ONE and TWO location
 group_one <- (Sys.glob("*segmentCN.txt")) # path to *segmentCN.txt files produced from TAPS 2.0
-group_two <- (Sys.glob("*_pLCIS*segmentCN.txt")) # path to *segmentCN.txt files produced from TAPS 2.0
+group_two <- (Sys.glob("**segmentCN.txt")) # path to *segmentCN.txt files produced from TAPS 2.0
 
 
 ## functions for caluclating copy number changes
