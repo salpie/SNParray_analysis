@@ -15,8 +15,8 @@ files_IDC <- (Sys.glob("/Users/salpienowinski/Documents/pleomorphic_oncoscanv3_1
 
 ###################FILES FOR REFERENCE SIMILARITY SCORE##########################################################################
 
-files_DCIS <- (Sys.glob("/Users/salpienowinski/Documents/100_probes_for_similarity_score_reference/*segmentCN.txt"))
-files_IDC <- (Sys.glob("/Users/salpienowinski/Documents/vandna_cloe_100/mixed_samples_for_clonality_test/*DC*segmentCN.txt"))
+#files_DCIS <- (Sys.glob("/Users/salpienowinski/Documents/100_probes_for_similarity_score_reference/*segmentCN.txt"))
+#files_IDC <- (Sys.glob("/Users/salpienowinski/Documents/vandna_cloe_100/mixed_samples_for_clonality_test/*DC*segmentCN.txt"))
 
 ##############################################     FOR SPECIFIC COPY NUMBER CHANGES     ##########################################
 #loss <- list()
